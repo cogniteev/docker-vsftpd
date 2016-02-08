@@ -1,0 +1,18 @@
+diff -Naurp vsftpd-2.2.2.orig/vsftpd.conf vsftpd-2.2.2/vsftpd.conf
+--- vsftpd-2.2.2.orig/vsftpd.conf	2010-03-15 14:58:59.982885227 -0400
++++ vsftpd-2.2.2/vsftpd.conf	2010-03-15 15:00:01.732885109 -0400
+@@ -19,11 +19,11 @@ listen=YES
+ # exclusive.
+ #listen_ipv6=YES
+ #
+-# Allow anonymous FTP? (Beware - allowed by default if you comment this out).
+-anonymous_enable=YES
++# Allow anonymous FTP? (Disabled by default)
++anonymous_enable=NO
+ #
+ # Uncomment this to allow local users to log in.
+-#local_enable=YES
++local_enable=YES
+ #
+ # Uncomment this to enable any form of FTP write command.
+ #write_enable=YES

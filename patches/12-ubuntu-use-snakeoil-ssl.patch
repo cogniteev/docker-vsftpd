@@ -1,0 +1,13 @@
+Index: vsftpd-2.3.5-3ubuntu1/vsftpd.conf
+===================================================================
+--- vsftpd-2.3.5-3ubuntu1.orig/vsftpd.conf	2012-05-23 16:28:07.256441930 -0400
++++ vsftpd-2.3.5-3ubuntu1/vsftpd.conf	2012-05-23 16:32:47.068439261 -0400
+@@ -144,4 +144,7 @@
+ #
+ # This option specifies the location of the RSA certificate to use for SSL
+ # encrypted connections.
+-rsa_cert_file=/etc/ssl/private/vsftpd.pem
++rsa_cert_file=/etc/ssl/certs/ssl-cert-snakeoil.pem
++# This option specifies the location of the RSA key to use for SSL
++# encrypted connections.
++rsa_private_key_file=/etc/ssl/private/ssl-cert-snakeoil.key

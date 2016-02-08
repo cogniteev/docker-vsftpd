@@ -1,0 +1,16 @@
+01-builddefs.patch
+02-config.patch
+03-db-doc.patch
+04-link-local.patch
+05-whitespaces.patch
+06-greedy.patch
+07-utf8.patch
+08-manpage.patch
+09-s390.patch
+10-remote-dos.patch
+11-alpha.patch
+12-buildflags.patch
+09-disable-anonymous.patch
+12-ubuntu-use-snakeoil-ssl.patch
+13-disable-clone-newpid.patch
+#ubuntu-seccomp-gettimeofday.patch
