@@ -13,4 +13,5 @@
 09-disable-anonymous.patch
 12-ubuntu-use-snakeoil-ssl.patch
 13-disable-clone-newpid.patch
+20-utf8-logs.patch
 #ubuntu-seccomp-gettimeofday.patch
